@@ -19,6 +19,7 @@ public class Example {
 	// stretch goal could be to make sure the reason is accurate
 	/**
          * @throws NullPointerException if {@code d} is {@code null}
+	 * @throws IllegalArgumentException if {@code d} is less than 0
 	 */
 	public Double posSqrt(Double d) {
 		if(d == null) {
